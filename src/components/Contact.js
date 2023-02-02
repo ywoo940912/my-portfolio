@@ -8,7 +8,7 @@ export default function Contact() {
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-[#839B97] border-pink-600 drop-shadow-xl'>Contact
                 </p>
-                <p className='text-[#263159] py-4 drop-shadow-xl'>// Submit the form below or shoot me an email - ywoo940912@gmail.com
+                <p className='text-[#263159] py-4 drop-shadow-xl'>Submit the form below or shoot me an email - ywoo940912@gmail.com
                 </p>
             </div>
 

@@ -35,7 +35,7 @@ export default function Navbar() {
     </div>
 
       {/* Links*/}
-      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+      <div className='hidden lg:flex fixed flex-col bottom-[20px] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[00px] duration-300 rounded-br-lg  bg-[#354259]'>
             <a
@@ -47,7 +47,7 @@ export default function Navbar() {
         </Link>
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[00px] duration-300 rounded-br-lg bg-[#AA5656]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[00px] duration-300 rounded-br-lg bg-pink-600'>
             <a
               className='flex justify-between items-center w-full ml-[50px] italic text-gray-300'
               href='/'
