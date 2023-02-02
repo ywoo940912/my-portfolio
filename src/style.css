@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-[Inter];
+    }
+}
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(112, 157, 255, 0.8),
+        hsla(242, 74%, 61%, 0.8)
+    )!important;
+}
+
+
+
+body {
+    background-color: whitesmoke;
+    color: #0a0e27;
+}
+
+/*.main-about, .main-work, .main-contact  {
+    display: grid;
+    text-decoration: none;
+    margin-left: 10vw;
+    margin-bottom: 10px;
+    align-items: right ;
+    color: #0a0e27;
+    font-weight: 700;
+    font-size: 5vw;
+    text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #e0eff2;
+    width: 20vh;
+}*/
+
+/*.footer-name {
+    font-family: 'Great Vibes', cursive;
+    font-style: italic;
+    margin-left: 80%;
+    margin-top: 7%;
+    margin-bottom: 0.5vh;
+    align-items: right ;
+    color: #0a0e27;
+    font-size: 1.6vw;
+    text-shadow: -2px 1px 0 #3a50d9, -4px 5px 0 #e0eff2;
+}*/
+
+
