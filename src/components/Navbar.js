@@ -35,7 +35,7 @@ export default function Navbar() {
     </div>
 
       {/* Links*/}
-      <div className='hidden lg:flex fixed flex-col bottom-[20px] left-0'>
+     {/* <div className='hidden lg:flex fixed flex-col bottom-[20px] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[00px] duration-300 rounded-br-lg  bg-[#354259]'>
             <a
@@ -78,7 +78,7 @@ export default function Navbar() {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
 
     </div>
     )

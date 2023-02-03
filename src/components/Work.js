@@ -30,6 +30,7 @@ export default function Work() {
                         className='text-[#263159]  px-8 py-4'>Currently, I am enhancing the website usability by rebuilding user interface using WordPress Avada builder, Modula, Gravity form plugin, and Google maps API.
                         <FiArrowRight color="rgb(219 39 119)" size={30}/>
                     </p>
+
                 {/*Grid Item*/}
                     <div 
                         style={{backgroundImage: `url(${FPC})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div mb-10">
@@ -57,7 +58,8 @@ export default function Work() {
                 <div    
                     className="grid sm:grid-cols-4 md:grid-cols-2 gap-4">
                     <p 
-                        className='text-[#263159]  px-8 py-4'>As my capstone project at Kennesaw State University, me and my team built a Blazer project management application for the WoodLine Interior DESIGN.  
+                        className='text-[#263159]  px-8 py-4'>As my capstone project at Kennesaw State University, me and my team built a Blazer project management application for the WoodLine Interior DESIGN.
+                        <FiArrowRight color="rgb(219 39 119)" size={30}/>  
                     </p>
                 {/*Grid Item*/}
                     <div 
@@ -87,6 +89,7 @@ export default function Work() {
                     className="grid sm:grid-cols-4 md:grid-cols-2 gap-4">
                     <p 
                         className='text-[#263159]  px-8 py-4'>I designed a mobile prototype that walkthroughs operating scenarios from user's point of view using MarvelApp. Application demonstrates the work flow of kitchen task operator app.
+                        <FiArrowRight color="rgb(219 39 119)" size={30}/>
                     </p>
                 {/*Grid Item*/}
                     <div 
@@ -116,6 +119,7 @@ export default function Work() {
                     className="grid sm:grid-cols-4 md:grid-cols-2 gap-4">
                     <p 
                         className='text-[#263159]  px-8 py-4'>This is my first Portfolio Website using React.JS, TailwindCSS, and Getform. It is a single page application, currently I am working on converting to multiple page application with react-router-dom.
+                        <FiArrowRight color="rgb(219 39 119)" size={30}/>
                     </p>
                 {/*Grid Item*/}
                     <div 
