@@ -16,17 +16,17 @@ export default function Navbar() {
 
     <div>        
     <ul className="flex">   
-            <li className="ml-[-30px]">
+            <li className="ml-[-30px] ">
                 <a href="https://github.com/ywoo940912" target = "_blank">
                     <FaGithub color="white" size={30}/>
                 </a>
             </li>
-            <li className="ml-[-80px]">
+            <li className="ml-[-80px] ">
                 <a href="https://www.linkedin.com/in/yeonkuk-woo-790278138/" target = "_blank">
                     <FaLinkedin color="white"  size={30}/>
                 </a>
             </li>
-            <li className="ml-[-85px]">
+            <li className="ml-[-85px] ">
                 <a href= {Resume} target = "_blank">
                     <BsFillPersonLinesFill color="white" size={30}/>
                 </a>

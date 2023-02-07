@@ -7,7 +7,15 @@
         @apply font-[Inter];
     }
 }
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: hsl(0, 0%, 80%);
+    }
 
+    to {
+        border-right-color: transparent;
+    }
+}
 .content-div {
     background-repeat: no-repeat;
     background-size: cover;
