@@ -37,9 +37,9 @@ export default function Navbar() {
       {/* Links*/}
       <div className='hidden lg:flex fixed flex-col bottom-[20px] left-0'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[00px] duration-300 rounded-br-lg  bg-[#354259]'>
+          <li className='w-[120px] h-[60px] flex items-center ml-[-100px] my-[10px] hover:ml-[-30px] duration-300 rounded-br-lg  bg-[#354259]'>
             <a
-              className='flex justify-between items-center ml-[50px] w-full italic text-gray-300'
+              className='flex justify-between items-center ml-[50px] w-full italic font-bold text-gray-300'
               href='/'
             >
         <Link to="main" smooth={true} duration={500}>
@@ -47,9 +47,9 @@ export default function Navbar() {
         </Link>
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[00px] duration-300 rounded-br-lg bg-pink-600'>
+          <li className='w-[120px] h-[60px] flex items-center ml-[-100px] my-[10px] hover:ml-[-30px] duration-300 rounded-br-lg bg-pink-600'>
             <a
-              className='flex justify-between items-center w-full ml-[50px] italic text-gray-300'
+              className='flex justify-between items-center w-full ml-[40px] italic font-bold text-gray-300'
               href='/'
             >
         <Link to="about" smooth={true} duration={500}>
@@ -57,9 +57,9 @@ export default function Navbar() {
         </Link>
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[00px] duration-300 rounded-br-lg bg-[#227C70]'>
+          <li className='w-[120px] h-[60px] flex tems-center ml-[-100px] my-[10px] hover:ml-[-30px] duration-300 rounded-br-lg bg-[#227C70]'>
             <a
-              className='flex justify-between items-center ml-[50px] w-full italic text-gray-300'
+              className='flex justify-between items-center ml-[50px] w-full italic font-bold text-gray-300'
               href='/'
             >
         <Link to="work" smooth={true} duration={500}>
@@ -67,9 +67,9 @@ export default function Navbar() {
         </Link>
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[00px] duration-300 rounded-br-lg bg-[#B99B6B]'>
+          <li className='w-[120px] h-[60px] flex items-center ml-[-100px] my-[10px] hover:ml-[-30px] duration-300 rounded-br-lg bg-[#B99B6B]'>
             <a
-              className='flex justify-between items-center ml-[40px] w-full italic text-gray-300'
+              className='flex justify-between items-center ml-[40px] w-full italic font-bold text-gray-300'
               href='/'
             >
         <Link to="contact" smooth={true} duration={500}>

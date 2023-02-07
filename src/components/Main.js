@@ -6,7 +6,7 @@ export default function Main() {
 
         <div className=" w-full h-[20px] grid object-right px-550 bg-[cream]">
             <div>
-                <img className="object-right ml-[65vw] mt-[22vh] " src={Profile} alt='Profile image' style={{ width: '300px'}} />
+                <img className="object-right ml-[65vw] mt-[22vh] " src={Profile} alt='Profile image' style={{ width: '500px'}} />
             </div>
         </div>
 
