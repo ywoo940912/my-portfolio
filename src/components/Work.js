@@ -27,11 +27,13 @@ export default function Work() {
                 <div    
                     className="grid sm:grid-cols-4 md:grid-cols-2 gap-4">
                     <p 
-                        className='text-[#263159] px-8 py-4'>Currently, I am enhancing the website usability by rebuilding user interface using WordPress Avada builder, Modula, Gravity form plugin, and Google maps API.
-                        <a href="https://fpcmarietta.org" target="_blank">
+                        className='text-[#263159] px-8 py-4 divider-vertical'>Currently, I am enhancing the website usability by rebuilding user interface using WordPress Avada builder, Modula, Gravity form plugin, and Google maps API.
+                        <div className="lg:divider-vertical  items-end">                                            <a href="https://fpcmarietta.org" target="_blank">
                             <FiArrowRight color="rgb(219 39 119)" size={30} />
-                        </a>
+                        </a></div>
+
                     </p>
+
                     <div 
                         style={{backgroundImage: `url(${FPC})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div mb-10">
                     </div>                   

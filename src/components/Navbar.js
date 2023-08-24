@@ -7,7 +7,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 export default function Navbar() {
     return(    
-    <div className=" w-full h-[70px] flex fixed justify-between items-center border-double border-b-4 border-gray-500 px-4 bg-[#495579]">
+    <div className=" w-full h-[70px] flex  justify-between items-center border-double border-b-4 border-gray-500 px-4 bg-[#495579]">
     <div>
         <img src={Logo} alt='Logo image' style={{ width: '65px'}} />
 
@@ -34,8 +34,8 @@ export default function Navbar() {
         </ul>
     </div>
 
-      {/* Links*/}
-      <div className='hidden lg:flex fixed flex-col bottom-[20px] left-0'>
+        {/* Links*/
+              <div className='hidden lg:flex fixed flex-col bottom-[20px] left-0'>
         <ul>
           <li className='w-[120px] h-[60px] flex items-center ml-[-100px] my-[10px] hover:ml-[-30px] duration-300 rounded-br-lg  bg-[#354259]'>
             <a
@@ -79,6 +79,8 @@ export default function Navbar() {
           </li>
         </ul>
       </div> 
+        }
+
 
     </div>
     )
